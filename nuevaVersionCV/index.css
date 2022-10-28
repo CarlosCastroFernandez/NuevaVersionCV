@@ -136,6 +136,8 @@ img {
 }
 
 footer {
+    display:flex;
+    flex-basis:200px;
     font-size: var(--forma-letras);
     text-align: center;
     color: red;
