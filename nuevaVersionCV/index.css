@@ -10,15 +10,17 @@
 
 body {
     box-sizing: border-box;
-  
+  background-color:var(--color-fondo);
 
 }
 
 .container {
     margin: 10px;
     display: flex;
-    border:10px solid red;
+    height:110em;
+    
     padding-right:1em;
+    min-width:250px;
 
 }
 
@@ -32,7 +34,7 @@ heading {
     text-align: center;
 }
 
-p,a,h5,h4,h2,span,h1 {
+p,a,h5,h4,h2,span,h1,li {
     font-size: var(--forma-letras);
 }
 [barra1="barra1"] {
@@ -46,6 +48,7 @@ h3 {
 }
 
 .caja1 {
+    
     margin: 10px 0px 10px 10px;
     padding: 2% 3%;
     border-radius: var(--forma-borde);
@@ -54,56 +57,42 @@ h3 {
 }
 
 .caja2 {
-    border:10px solid green;
-    display:flex;
-    
+    text-align:center;
+   
     margin: 10px -10px 10px 0px;
-    flex-direction:column;
-    flex-wrap:wrap;
-    align-items:center;
     background-color: var(--color-fondo-caja1);
-    flex-basis: 80vw;
     border-radius: var(--forma-borde);
+    flex-basis:90%;
+}
+.cajaFechas{
+    margin-top:-37em;
+    margin-left:64px;
+    display:flex;
+    flex-direction:column;
+    
+    width:15em;
+    justify-content:flex-start; 
+  
+}
+.cajaFechas2{
+    margin-top:-32em;
+    margin-left:64px;
+    display:flex;
+    flex-direction:column;
+    
+    width:15em;
+    justify-content:flex-start; 
     
 }
-.cajaFecha1{
-
-    border:10px solid black;
-    margin-left:var(--margen-fechas);
+.cajaFechas3{
+    margin-top:-53em;
+    margin-left:64px;
+    display:flex;
+    flex-direction:column;
+    
+    width:15em;
+    justify-content:flex-start; 
     
 }
-.margenTitulos{
-    margin-top:-3em;
-}
 
-
-    li{
-    font-size:20px;
-}
-@media  screen and (max-width:800px){
-    .caja1{
-        display:block;
-    }
-    .caja2{
-        display:block;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
