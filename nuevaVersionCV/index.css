@@ -66,6 +66,14 @@ h3 {
     border-radius: var(--forma-borde);
     width:100%;
 }
+footer{
+    color:red;
+    text-align:center;
+    font-size:var(--forma-letras);
+    background-color:var(--color-fondo-caja2);
+    width:50%;
+    margin:0 auto;
+}
 
 @media only screen and (max-width:800px){
     .container{
