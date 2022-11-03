@@ -17,13 +17,7 @@ body {
 .container {
     margin: 10px;
     display: flex;
-    
-    
-    height:310vh;
-    
-    padding-right:1em;
-    min-width:250px;
-
+    height:111em;
 }
 
 img {
@@ -41,8 +35,14 @@ p,a,h5,h4,h2,span,h1,li {
 }
 [barra1="barra1"] {
     background-color: var(--color-barras);
+    text-align:center;
 }
-
+span{
+    text-align:center;
+    display:inline-block;
+    width:50%;
+    background-color:var(--color-barras);
+}
 h3 {
     font-size: var(--forma-letras);
     position: relative;
@@ -50,7 +50,7 @@ h3 {
 }
 
 .caja1 {
-    
+    padding:10px;
     margin: 10px 0px 10px 10px;
     padding: 2% 3%;
     border-radius: var(--forma-borde);
@@ -61,47 +61,16 @@ h3 {
 .caja2 {
     text-align:center;
    padding-bottom:-20px;
-    margin: 10px -10px 10px 0px;
+   margin: 10px 10px 10px 0px;
     background-color: var(--color-fondo-caja1);
     border-radius: var(--forma-borde);
-    flex-basis:90%;
+    width:100%;
 }
-.cajaFechas{
-    
-    margin-top:-37em;
-    margin-left:64px;
-    display:flex;
-    flex-direction:column;
-    
-    width:15em;
-    justify-content:flex-start; 
-  
-}
-.cajaFechas2{
-    margin-top:-32em;
-    margin-left:0px;
-    padding-left:0px;
-    display:flex;
-    flex-direction:column;
-    
-    width:15em;
-    justify-content:flex-start; 
-    
-}
-.cajaFechas3{
-    margin-top:-53em;
-    margin-left:64px;
-    display:flex;
-    flex-direction:column;
-    
-    width:15em;
-    justify-content:flex-start; 
-    
-}
+
 @media only screen and (max-width:800px){
     .container{
     flex-direction:column;
-    height:450vh;
+  
     
     
     
