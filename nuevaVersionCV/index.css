@@ -17,7 +17,7 @@ body {
 .container {
     margin: 10px;
     display: flex;
-    height:110em;
+    height:120em;
     
     padding-right:1em;
     min-width:250px;
@@ -58,7 +58,7 @@ h3 {
 
 .caja2 {
     text-align:center;
-   
+   padding-bottom:-20px;
     margin: 10px -10px 10px 0px;
     background-color: var(--color-fondo-caja1);
     border-radius: var(--forma-borde);
@@ -93,6 +93,12 @@ h3 {
     width:15em;
     justify-content:flex-start; 
     
+}
+@media only screen and(max-width:800px){
+    .container{
+    display:flex;
+    flex-direction:column;
+    }
 }
 
     
